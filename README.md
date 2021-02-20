@@ -2,7 +2,7 @@
 
 1. [English](#english)
 
-2. [Japanese](#japanese)
+2. [日本語](#japanese)
 
 # Demo
 
