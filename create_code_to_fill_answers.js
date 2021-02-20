@@ -2,7 +2,6 @@ function createCodeToFillAnswers() {
 
     //Only this part is specific to your sheet. {
 
-//     const sheet_name = '問題データ';
     const sheet_name = 'Problem Data';
     const cells = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet_name).getDataRange().getValues();
 
@@ -16,7 +15,6 @@ function createCodeToFillAnswers() {
         const problem_type = cells[i][2];
         const problem      = cells[i][4];
         const answer       = cells[i][5];
-//         if (problem_type == '単文記述') {
         if (problem_type == 'Short Answer') {
             a_problems.push(problem);
             a_answers.push(answer);
